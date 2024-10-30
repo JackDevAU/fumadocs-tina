@@ -8,6 +8,7 @@ import {
 import { notFound } from "next/navigation";
 import ClientDocPage from "./client-page";
 import client from "@/tina/__generated__/client";
+import defaultMdxComponents from "fumadocs-ui/mdx";
 
 export default async function Page(props: {
   params: Promise<{ slug?: string[] }>;

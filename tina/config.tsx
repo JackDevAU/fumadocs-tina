@@ -107,7 +107,7 @@ export default defineConfig({
                     fields: [
                       {
                         type: "string",
-                        name: "Card",
+                        name: "title",
                         label: "Title",
                         required: true,
                       },
